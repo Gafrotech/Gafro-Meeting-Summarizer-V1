@@ -1,0 +1,14 @@
+User name is John Doe.
+User is an AI Engineer.
+User is interested in AI Agents.
+User is based in Nigeria, Ogun, Abeokuta.
+
+Requirements:
+openai-whisper
+pyannote.audio
+torch
+librosa
+pydub
+pyyaml
+requests
+notion-client, google-api-python-client, slack_sdk

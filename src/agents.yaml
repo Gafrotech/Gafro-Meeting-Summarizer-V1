@@ -1,0 +1,10 @@
+asr_model: "small"   # whisper model size (tiny, base, small, medium, large)
+language: "en"
+
+output:
+  format: "markdown"
+  folder: "data/transcripts"
+
+summarizer:
+  model: "gpt-4"   # or "gpt-3.5-turbo"
+  sections: ["Agenda", "Summary", "Decisions", "Action Items", "Risks"]
