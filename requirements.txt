@@ -1,0 +1,9 @@
+openai-whisper
+pyannote.audio
+torch
+librosa
+pydub
+pyyaml
+requests
+crewai
+PyYAML 

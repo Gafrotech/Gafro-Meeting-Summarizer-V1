@@ -1,0 +1,12 @@
+asr_model: "small"
+language: "en"
+
+output:
+  format: "markdown"
+  folder: "data/transcripts"
+
+summarizer:
+  model: "gpt-4"
+  sections: ["Agenda", "Summary", "Decisions", "Action Items", "Risks"]
+
+mock_mode: true   # true = use sample_transcript.json instead of Whisper

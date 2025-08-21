@@ -1,0 +1,23 @@
+[project]
+name = "silent_meeting_summarizer"
+version = "0.1.0"
+description = "silent-meeting-summarizer using crewAI"
+authors = [{ name = "Gafrotech", email = "gafrotech2@gmail.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.159.0,<1.0.0"
+]
+
+[project.scripts]
+silent_meeting_summarizer = "silent_meeting_summarizer.main:run"
+run_crew = "silent_meeting_summarizer.main:run"
+train = "silent_meeting_summarizer.main:train"
+replay = "silent_meeting_summarizer.main:replay"
+test = "silent_meeting_summarizer.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
